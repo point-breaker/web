@@ -1,0 +1,56 @@
+body{
+    background-color:blanchedalmond;
+    font-family: poppins;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: absolute;
+    top: 28px;
+    left: 35px;
+
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.content h1{
+    color: crimson;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:58px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.content p{
+    color:darkolivegreen;
+    font-family:monospace;
+    font-size: 12px;
+    line-height: 1.8;
+}
+.content {
+    position: absolute;
+
+    left: 17%;
+    top: 40%;
+
+    transform: translateY(-50%);
+
+    width: 480px;
+}
+.page {
+    min-height: 100vh;
+    position: relative;
+    padding: 30px;
+}
+.imageref{
+    position: absolute;
+
+    width: 300px;
+
+    top: 190px;
+    right: 110px;
+
+    object-fit:contain;
+}
